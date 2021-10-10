@@ -27,7 +27,7 @@ if (in_data->appl_id == 'PrMr') {
 
 		(*pixelFormatSuite->AddSupportedPixelFormat) (in_data->effect_ref, PrPixelFormat_VUYA_4444_32f);
 		(*pixelFormatSuite->AddSupportedPixelFormat) (in_data->effect_ref, PrPixelFormat_BGRA_4444_32f);
-		(*pixelFormatSuite->AddSupportedPixelFormat) (in_data->effect_ref, PrPixelFormat_VUYA_4444_32f);
+		(*pixelFormatSuite->AddSupportedPixelFormat) (in_data->effect_ref, PrPixelFormat_VUYA_4444_8u);
 		(*pixelFormatSuite->AddSupportedPixelFormat) (in_data->effect_ref, PrPixelFormat_BGRA_4444_8u);
 
 	}
